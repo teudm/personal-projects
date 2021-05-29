@@ -1,12 +1,12 @@
 window.onload = function() {
-  document.getElementById("black").onclick = function() {
+  document.getElementById("dracula").onclick = function() {
       chrome.extension.sendMessage({
-          type: "black"
+          type: "dracula"
       });
   }
-  document.getElementById("white").onclick = function() {
+  document.getElementById("trybe").onclick = function() {
     chrome.extension.sendMessage({
-        type: "white"
+        type: "trybe"
     });
 }
 }
